@@ -1,5 +1,6 @@
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import {BsArrowDownCircleFill} from "react-icons/bs";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -25,10 +26,11 @@ export default function Home() {
           </div>
           <div className=" w-96 h-96 animate-slide-in ">
             <div className="flex">
-              <img
+              <Image
                 className="object-fill h-[500px] rounded-lg animate-fade-in "
+                alt=""
                 src="/Rakesh1.jpg"
-              ></img>
+              ></Image>
               <div className=" ml-6 flex flex-col justify-center ">
                 <div className="my-3 animate-drop">
                   <a
