@@ -1,6 +1,8 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
+
 
 import { usePathname } from "next/navigation";
 
@@ -12,7 +14,7 @@ const Header: React.FC = () => {
       <nav>
         <div className="flex justify-between  items-center">
           <div className=" w-14  ">
-            <img src="./logo.png" alt="alternatetext"></img>
+            <Image src="./logo.png" alt="alternatetext"></Image>
           </div>
 
           <ul className="flex list-none m-0 p-0">
