@@ -14,7 +14,7 @@ const Header: React.FC = () => {
       <nav>
         <div className="flex justify-between  items-center">
           <div className=" w-14  ">
-            <Image src="./logo.png" alt="alternatetext"></Image>
+            <Image src="/logo.png" alt="alternatetext" width={60} height={60}></Image>
           </div>
 
           <ul className="flex list-none m-0 p-0">

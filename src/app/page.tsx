@@ -11,7 +11,7 @@ export default function Home() {
             <h1 className=" text-6xl mb-10 leading-tight font-bold">
               Hello
               <br />
-              I'm <span className="text-red-600">Rakesh</span><br />
+              I&apos;m <span className="text-red-600">Rakesh</span><br />
               <span className="text-red-600">Zore</span>
             </h1>
             <p className=" text-xl leading-normal"> 
@@ -30,6 +30,9 @@ export default function Home() {
                 className="object-fill h-[500px] rounded-lg animate-fade-in "
                 alt=""
                 src="/Rakesh1.jpg"
+                width={234}
+                height={500}
+
               ></Image>
               <div className=" ml-6 flex flex-col justify-center ">
                 <div className="my-3 animate-drop">

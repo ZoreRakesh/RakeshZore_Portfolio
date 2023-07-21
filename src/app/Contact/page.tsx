@@ -32,7 +32,7 @@ const Contact: React.FC = () => {
     
     try {
       setIsloading(true);
-      const response = await axios.post('http://localhost:3000/api/submitForm', formData);
+      const response = await axios.post('/api/submitForm', formData);
 
     } catch (error) {
     }
