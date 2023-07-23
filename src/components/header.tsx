@@ -10,7 +10,7 @@ const Header: React.FC = () => {
   const pathName = usePathname();
 
   return (
-    <header className=" sticky top-0 px-10 py-3 bg-black z-50">
+    <header className="header sticky top-0 px-10 py-3 z-50">
       <nav>
         <div className="flex justify-between  items-center">
           <div className=" w-14  ">

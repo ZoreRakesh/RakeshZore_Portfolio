@@ -57,23 +57,23 @@ const Contact: React.FC = () => {
       <div className='flex flex-col justify-center md:h-[380px] '>
         <h1 className='font-bold text-2xl mb-12'>A Fullstack Web and App Developer,<br/> Love to help you.</h1>
         <div className='text-lg text-red-600 mb-16'>
-        <p>Name_ <span className='text-white'>Rakesh Zore</span></p>
-        <p>Email_ <span className='text-white'>zorerakesh17@gmail.com</span></p>
-        <p>Phone no._ <span className='text-white'>+91 9923317362 </span></p>
-        <p>Address_ <span className='text-white '>Mumbai</span></p>
+        <p>Name_ <span className='text-slate-900 dark:text-white'>Rakesh Zore</span></p>
+        <p>Email_ <span className=' text-slate-900 dark:text-white'>zorerakesh17@gmail.com</span></p>
+        <p>Phone no._ <span className='text-slate-900 dark:text-white'>+91 9923317362 </span></p>
+        <p>Address_ <span className='text-slate-900 dark:text-white '>Mumbai</span></p>
         </div>
 
       </div>
       <div className=''>
       <form className=" " onSubmit={handleSubmit}>
       <div className="mb-4">
-        <label htmlFor="name" className="block text-gray-500 font-bold mb-2" >
+        <label htmlFor="name" className="block text-slate-800 dark:text-gray-500 font-bold mb-2" >
           Name
         </label>  
         <input
           type="text"
           id="name"
-          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="shadow appearance-none border rounded w-full py-2 px-3 dark:text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           placeholder="Your Name"
           name='name'
           value={formData.name} 
@@ -81,25 +81,25 @@ const Contact: React.FC = () => {
         />
       </div>
       <div className="mb-4">
-        <label htmlFor="email" className="block text-gray-500 font-bold mb-2" >
+        <label htmlFor="email" className="block text-slate-800 dark:text-gray-500 font-bold mb-2" >
           Email
         </label>
         <input
           type="email"
           id="email"
-          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="shadow appearance-none border rounded w-full py-2 px-3 dark:text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           placeholder="you@example.com"
           name='email'
           value={formData.email} onChange={handleChange}
         />
       </div>
       <div className="mb-6">
-        <label htmlFor="message" className="block text-gray-500 font-bold mb-2" >
+        <label htmlFor="message" className="block text-slate-800 dark:text-gray-500 font-bold mb-2" >
           Message
         </label>
         <textarea
           id="message"
-          className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          className="shadow appearance-none border rounded w-full py-2 px-3 dark:text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           rows={4}
           placeholder="Your Message"
           name='message'
