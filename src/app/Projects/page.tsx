@@ -10,6 +10,12 @@ const Projects: React.FC = () => {
           <hr className="border-t-2 border-red-600" />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 m-10">
+              <a href="https://github.com/ZoreRakesh/Blog-webapp">
+    <div className="p-4 text-center rounded-lg border-solid border-[1px] border-gray-500 dark:border-white hover:animate-pulse cursor-pointer md:min-h-[18rem]">
+      <h1 className="font-bold text-xl my-10">Blog WebApp</h1>
+      <p className="my-10">Mern-based online application for blogging and posting</p>
+    </div>
+  </a>
   <a href="https://github.com/ZoreRakesh/Music-WebApp">
     <div className="p-4 text-center rounded-lg border-solid border-[1px] border-gray-500 dark:border-white hover:animate-pulse cursor-pointer md:min-h-[18rem]">
       <h1 className="font-bold text-xl my-10">Music-WebApp</h1>
