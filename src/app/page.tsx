@@ -15,7 +15,7 @@ export default function Home() {
               <span className="text-red-600">Zore</span>
             </h1>
             <p className=" text-xl leading-normal"> 
-              A FullStack Web and App Developer,
+              SAP ABAP Consultant @Bristlecone,
               <br /> Eager to learn new things.
             </p>
             <a className="hover:text-red-600 mt-10 mr-40 text-[#454545]" href="/RakeshZore.pdf" download>
