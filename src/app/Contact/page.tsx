@@ -55,7 +55,7 @@ const Contact: React.FC = () => {
       <div className='flex flex-col md:flex-row justify-between mx-10 mt-10'>
       <div></div>
       <div className='flex flex-col justify-center md:h-[380px] '>
-        <h1 className='font-bold text-2xl mb-12'>A Fullstack Web and App Developer,<br/> Love to help you.</h1>
+        <h1 className='font-bold text-2xl mb-12'>An SAP ABAP Consultant,<br/> Love to help you.</h1>
         <div className='text-lg text-red-600 mb-16'>
         <p>Name_ <span className='text-slate-900 dark:text-white'>Rakesh Zore</span></p>
         <p>Email_ <span className=' text-slate-900 dark:text-white'>zorerakesh17@gmail.com</span></p>
